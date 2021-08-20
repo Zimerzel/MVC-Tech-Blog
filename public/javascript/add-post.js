@@ -9,7 +9,6 @@ async function newFormHandler(event) {
     body: JSON.stringify({
       title,
       post_url,
-      review
     }),
     headers: {
       'Content-Type': 'application/json'
